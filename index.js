@@ -9,22 +9,26 @@ const servidores = JSON.parse(fs.readFileSync("servidores.json", "utf8"));
 
 function formatarResposta(nomes) {
   const respostas = nomes.map((nome) => {
-    const servidor = servidores.find(
-      (s) => s.nome.toLowerCase() === nome.toLowerCase()
+    const encontrados = servidores.filter((s) =>
+      s.nome.toLowerCase().includes(nome.toLowerCase())
     );
 
-    if (!servidor) {
+    if (encontrados.length === 0) {
       return `Servidor: ${nome}\nStatus: não encontrado`;
     }
 
-    const validacoes = servidor.validacoes.length
-      ? servidor.validacoes.join(", ")
-      : "nenhuma";
+    return encontrados
+      .map((servidor) => {
+        const validacoes = servidor.validacoes.length
+          ? servidor.validacoes.join(", ")
+          : "nenhuma";
 
-    const responsavel =
-      servidor.responsavel === "eu" ? "você" : servidor.responsavel;
+        const responsavel =
+          servidor.responsavel === "eu" ? "você" : servidor.responsavel;
 
-    return `Servidor: ${nome}\nResponsável: ${responsavel}\nValidações: ${validacoes}`;
+        return `Servidor: ${servidor.nome}\nResponsável: ${responsavel}\nValidações: ${validacoes}`;
+      })
+      .join("\n\n");
   });
 
   return respostas.join("\n\n");
