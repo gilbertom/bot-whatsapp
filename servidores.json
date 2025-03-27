@@ -8,5 +8,10 @@
     "nome": "srv-db-03",
     "responsavel": "outra equipe",
     "validacoes": []
+  },
+  {
+    "nome": "GNCASSTW0000001",
+    "responsavel": "squad-servicos",
+    "validacoes": ["Validar WSDL"]
   }
 ]
