@@ -1,0 +1,13 @@
+{
+  "name": "bot-servidores",
+  "version": "1.0.0",
+  "description": "Bot para consultar servidores e validações via WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}

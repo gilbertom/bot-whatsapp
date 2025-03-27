@@ -1,0 +1,12 @@
+[
+  {
+    "nome": "srv-app-01",
+    "responsavel": "eu",
+    "validacoes": ["Verificar status do nginx", "Reiniciar app"]
+  },
+  {
+    "nome": "srv-db-03",
+    "responsavel": "outra equipe",
+    "validacoes": []
+  }
+]
