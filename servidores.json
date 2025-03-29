@@ -1,11 +1,11 @@
 [
   {
-    "nome": "GNCASSTW02986 - Monitor da ACI - SuperGet Pareavel",
+    "nome": "*****STW02986 - Monitor da ACI - SuperGet Pareavel",
     "responsavel": "ST",
     "validacoes": ["==> Monitor Windows não temos validação"]
   },
   {
-    "nome": "GNCASSPA00541 - Oracle do NCANAIS",
+    "nome": "*****SPA00541 - Oracle do NCANAIS",
     "responsavel": "ST",
     "validacoes": [
       "Oracle do NCANAIS\n",
@@ -19,17 +19,17 @@
       "\n",
       "NCANAIS - WEBLOGIC\n",
       "\n",
-      "GNCASSPL05777(180.104.170.37)(NOVA)\n",
-      "GNCASNPL05778(180.104.170.38)(NOVA)\n"
+      "*****SPL05777(180.104.170.37)(NOVA)\n",
+      "*****NPL05778(180.104.170.38)(NOVA)\n"
     ]
   },
   {
-    "nome": "GNCASSPA02366 - aix / database",
+    "nome": "*****SPA02366 - aix / database",
     "responsavel": "ST",
     "validacoes": ["Sem validação"]
   },
   {
-    "nome": "GNCASNTA01311 - Cancelamento Online",
+    "nome": "*****NTA01311 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Máquina de WEBLOGIC CANCELAMENTO ONLINE e ANTECIPACAO\n",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "nome": "GNCASSPA04840 - Captura ADQ WS",
+    "nome": "*****SPA04840 - Captura ADQ WS",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 29\n",
@@ -54,22 +54,22 @@
     ]
   },
   {
-    "nome": "GNCASNTW02985 - Monitor da ACI - SuperGet Pareavel",
+    "nome": "*****NTW02985 - Monitor da ACI - SuperGet Pareavel",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL07665 - Maquina da Integração",
+    "nome": "*****NPL07665 - Maquina da Integração",
     "responsavel": "ST",
     "validacoes": ["Validar as logs do repo-adapter-base24-ms"]
   },
   {
-    "nome": "GNCASNPA00542 - NCANAIS",
+    "nome": "*****NPA00542 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTA05532 - Cancelamento Online",
+    "nome": "*****STA05532 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Cancelamento Online - repo-cancelsync - HUB Cancelamento Amnazon\n",
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "nome": "GNCASSPW00210 - Portal Emissor",
+    "nome": "*****SPW00210 - Portal Emissor",
     "responsavel": "ST",
     "validacoes": [
       "Acessar:\n",
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "nome": "GNCASNTA05533 - Cancelamento Online - repo-cancelsync - HUB Cancelamento Amnazon",
+    "nome": "*****NTA05533 - Cancelamento Online - repo-cancelsync - HUB Cancelamento Amnazon",
     "responsavel": "ST",
     "validacoes": [
       "==> Somente acessar o banco ST-CANCELAMENTO-ONLINE-PROD\n\n",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "nome": "GNCASNTA05957",
+    "nome": "*****NTA05957",
     "responsavel": "ST",
     "validacoes": [
       "==> Adapter PagoNxt - Servidor banco de dados Oracle 19c RAC - AST 1 \n",
@@ -116,22 +116,22 @@
     ]
   },
   {
-    "nome": "GNCASNPA04841 - Antecipação de Recebíveis",
+    "nome": "*****NPA04841 - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": ["==> Fazer select na 29 - ANTECLOG. Conectou, ok!\n"]
   },
   {
-    "nome": "GNCASSPL05777 - NCANAIS",
+    "nome": "*****SPL05777 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTL02982 - ATIVO/ATIVO - UPF - ICE DE ENTRADA",
+    "nome": "*****STL02982 - ATIVO/ATIVO - UPF - ICE DE ENTRADA",
     "responsavel": "ST",
     "validacoes": [
       "==> ICE de Entrada\n",
-      "Logar na GNCASSTL02982 utilizando svc_aci\n\n",
-      "ssh svc_aci@GNCASNTL02979\n",
+      "Logar na *****STL02982 utilizando svc_aci\n\n",
+      "ssh svc_aci@*****NTL02979\n",
       "UNUo95hI-5Mf-65\n\n",
       "cd /data/opt/aci/upf/ICEXSHARouter/bin\n",
       "./icexsctl status\n",
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "nome": "GNCASSPL03871 - Cancelamento Online",
+    "nome": "*****SPL03871 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Acessar localmente\n",
@@ -148,24 +148,24 @@
     ]
   },
   {
-    "nome": "GNCASSPW00522 - NCANAIS",
+    "nome": "*****SPW00522 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL00666 - GetTransfer - máquina responsável por contingência de processamento de aquivos",
+    "nome": "*****NPL00666 - GetTransfer - máquina responsável por contingência de processamento de aquivos",
     "responsavel": "ST",
     "validacoes": [
-      "==> Pode fazer direto e logar na GNCASNPL00666 pelo usuário svc_lac_prd\n"
+      "==> Pode fazer direto e logar na *****NPL00666 pelo usuário svc_lac_prd\n"
     ]
   },
   {
-    "nome": "GNCASSPL07664 - mongo-adq-adapter-base24-ms-prd",
+    "nome": "*****SPL07664 - mongo-adq-adapter-base24-ms-prd",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL03872 - Cancelamento Online",
+    "nome": "*****NPL03872 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Acessar localmente\n",
@@ -173,12 +173,12 @@
     ]
   },
   {
-    "nome": "GNCASNTL07056 - MongoDB",
+    "nome": "*****NTL07056 - MongoDB",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL04838 - Antecipação de Recebíveis",
+    "nome": "*****SPL04838 - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": [
       "==> Entra TS 29 e faz request na URL de Antecipação\n",
@@ -189,27 +189,27 @@
     ]
   },
   {
-    "nome": "GNCASNPW07692 - IBM MQ CAPTURA - PROD Integração/Ativação",
+    "nome": "*****NPW07692 - IBM MQ CAPTURA - PROD Integração/Ativação",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL07436 - Webservice do Payware",
+    "nome": "*****SPL07436 - Webservice do Payware",
     "responsavel": "P A Y W A R E",
     "validacoes": ["==> Webservice do Payware. Time do Susumu\n"]
   },
   {
-    "nome": "GNCASHTL06806 - Gecko",
+    "nome": "*****HTL06806 - Gecko",
     "responsavel": "TIME DO HARRISSON",
     "validacoes": ["RABBITMQ QUORUM"]
   },
   {
-    "nome": "GNCASNPL04142 - Servidor Banco de dados Oracle Dataguard primário",
+    "nome": "*****NPL04142 - Servidor Banco de dados Oracle Dataguard primário",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL02939 - WebLogic BrPremia Producao",
+    "nome": "*****SPL02939 - WebLogic BrPremia Producao",
     "responsavel": "ST",
     "validacoes": [
       "==> BR Premmia - WL\n",
@@ -219,7 +219,7 @@
     ]
   },
   {
-    "nome": "GNCASNTL05206 - PRD - (WL) - Integração com SGA",
+    "nome": "*****NTL05206 - PRD - (WL) - Integração com SGA",
     "responsavel": "ST",
     "validacoes": [
       "==> Chamar a URL https://monitorga.getnet.com.br/MonitorGetArk/login.xhtml e fazer o login.\n\n",
@@ -227,7 +227,7 @@
     ]
   },
   {
-    "nome": "GNCASHTL03495 - Up Framework",
+    "nome": "*****HTL03495 - Up Framework",
     "responsavel": "ST",
     "validacoes": [
       "==> cd /data/opt/aci/upf/Switch/bin\n",
@@ -239,12 +239,12 @@
     ]
   },
   {
-    "nome": "GNCASNPL05778 - NCANAIS",
+    "nome": "*****NPL05778 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHTL03496 - Up Framework",
+    "nome": "*****HTL03496 - Up Framework",
     "responsavel": "ST",
     "validacoes": [
       "==> Database Segregado\n",
@@ -253,17 +253,17 @@
     ]
   },
   {
-    "nome": "GNCASSTL05207 - RD - (OHS) - Serviços internos da captura transacional",
+    "nome": "*****STL05207 - RD - (OHS) - Serviços internos da captura transacional",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNTL05208 - Captura ADQ WS",
+    "nome": "*****NTL05208 - Captura ADQ WS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL00154 - Bin Dinâmico",
+    "nome": "*****NPL00154 - Bin Dinâmico",
     "responsavel": "ST",
     "validacoes": [
       "==> Apache Consulta Bins\n",
@@ -272,17 +272,17 @@
     ]
   },
   {
-    "nome": "GNCASHPL07666 - Adapter BASE24",
+    "nome": "*****HPL07666 - Adapter BASE24",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL03127 - Servidor Weblogic - Natura - Captura ADQ",
+    "nome": "*****SPL03127 - Servidor Weblogic - Natura - Captura ADQ",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL05633 - Weblogic Monitor GA",
+    "nome": "*****SPL05633 - Weblogic Monitor GA",
     "responsavel": "ST",
     "validacoes": [
       "Logar localmente em:\n",
@@ -290,12 +290,12 @@
     ]
   },
   {
-    "nome": "GNCASSPL07090 - Banco de dados MongoDB PRD QRCode Google",
+    "nome": "*****SPL07090 - Banco de dados MongoDB PRD QRCode Google",
     "responsavel": "ST",
     "validacoes": ["Validar PODs do repo-adapter-google porque perdem conexão"]
   },
   {
-    "nome": "GNCASSTA05956 - Adapter PagoNxt - Servidor banco de dados Oracle 19c RAC - AST 1 ",
+    "nome": "*****STA05956 - Adapter PagoNxt - Servidor banco de dados Oracle 19c RAC - AST 1 ",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 37 => Rodar query buscando transações recentes. ADAPTER_AST_PROD\n",
@@ -303,34 +303,34 @@
     ]
   },
   {
-    "nome": "GNCASNPL03348 - Servidor Weblogic - Microservicos Captura ADQ 2 - QR Code",
+    "nome": "*****NPL03348 - Servidor Weblogic - Microservicos Captura ADQ 2 - QR Code",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 29 e acessar https://captura-ws.getnet.com.br/qrcode-manager/WsQRCodeService?wsdl\n"
     ]
   },
   {
-    "nome": "GNCASNPW00982 - NCANAIS Antiga",
+    "nome": "*****NPW00982 - NCANAIS Antiga",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPW00901, GNCASNPW00902, GNCASSPW00903 e GNCASNPW00904- Host de Fechamento",
+    "nome": "*****SPW00901, *****NPW00902, *****SPW00903 e *****NPW00904- Host de Fechamento",
     "responsavel": "ST",
     "validacoes": [
-      "GNCASNPW00904 não existe mais\n\n",
+      "*****NPW00904 não existe mais\n\n",
       "==> Antes de começar a GMUD tem que reiniciar o servidor!\n\n",
-      "==> GNCASSPW00903 (180.104.194.18) - Host de Fechamento - Pode gerar alerta de HISO com status STARTING.\n\n",
+      "==> *****SPW00903 (180.104.194.18) - Host de Fechamento - Pode gerar alerta de HISO com status STARTING.\n\n",
       "==> Pode fazer direto mas precisa avisar quando terminar para ver se tem alerta no Prognosis\n\n",
-      "GNCASSPW00901\n",
-      "GNCASNPW00902\n",
-      "GNCASSPW00903\n",
-      "GNCASNPW00904\n\n",
+      "*****SPW00901\n",
+      "*****NPW00902\n",
+      "*****SPW00903\n",
+      "*****NPW00904\n\n",
       "HOST SISTEMA BASE24 CONECTA NAS PORTAS HOST CONECTA NO BASE24 NAS PORTAS\n",
-      "GNCASSPW00901 (180.104.194.16)\n",
-      "GNCASSPW00903 (180.104.194.18)\n",
-      "GNCASNPW00902 (180.104.194.17)\n",
-      "GNCASNPW00904 (180.104.194.19) ANTECIPAÇÃO POS 10501 10502 10503 10504\n",
+      "*****SPW00901 (180.104.194.16)\n",
+      "*****SPW00903 (180.104.194.18)\n",
+      "*****NPW00902 (180.104.194.17)\n",
+      "*****NPW00904 (180.104.194.19) ANTECIPAÇÃO POS 10501 10502 10503 10504\n",
       "BRPREMMIA  10298 10299\n",
       "CANCELAMENTO ONLINE 10701 10702 10703 10704\n",
       "FECHAMENTOS POS 10801 10802 10803 10804\n",
@@ -340,12 +340,12 @@
     ]
   },
   {
-    "nome": "GNCASNTA00899 - Antecipação",
+    "nome": "*****NTA00899 - Antecipação",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL01281 - NCANAIS",
+    "nome": "*****SPL01281 - NCANAIS",
     "responsavel": "ST",
     "validacoes": [
       "\n",
@@ -368,34 +368,34 @@
     ]
   },
   {
-    "nome": "GNCASNPL03128 - Servidor Weblogic - Natura - Captura ADQ",
+    "nome": "*****NPL03128 - Servidor Weblogic - Natura - Captura ADQ",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPW00901 - BRPREMMIA, CANCEL ONLINE, FECHAMENTOS POS - Plataforma Host de Serviços de Adquirência",
+    "nome": "*****SPW00901 - BRPREMMIA, CANCEL ONLINE, FECHAMENTOS POS - Plataforma Host de Serviços de Adquirência",
     "responsavel": "ST",
     "validacoes": [
       "==> Pode fazer direto. Pode ocorrer alertas no NOC devido a GMUD. No final da GMUD, validar se os alertas resolveram. Caso não resolva, podemos realzar o restart do HostCMD\n"
     ]
   },
   {
-    "nome": "GNCASNPL04839 - Servidor Weblogic - Hub de Adquirência - Antecipação de Recebíveis",
+    "nome": "*****NPL04839 - Servidor Weblogic - Hub de Adquirência - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": ["==> Entra TS 29 e faz request na URL de Antecipação\n"]
   },
   {
-    "nome": "GNCASSTL07053 - Banco de dados Oracle TRS QRCODE GOOGLE",
+    "nome": "*****STL07053 - Banco de dados Oracle TRS QRCODE GOOGLE",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHTL06808 - Rabbit MQ TRANS Getnet BR",
+    "nome": "*****HTL06808 - Rabbit MQ TRANS Getnet BR",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNTA00916 - Oracle do Cancelamento Online",
+    "nome": "*****NTA00916 - Oracle do Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Cancelamento Online, Fechamento e BR Premmia\n",
@@ -410,32 +410,32 @@
     ]
   },
   {
-    "nome": "GNCASNTA00954 - Cancelamento Online",
+    "nome": "*****NTA00954 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPW07691 - PROD Integração/Ativação - MQ Series",
+    "nome": "*****SPW07691 - PROD Integração/Ativação - MQ Series",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHPL00667 - GetTransfer - repositório de arquivos ftp",
+    "nome": "*****HPL00667 - GetTransfer - repositório de arquivos ftp",
     "responsavel": "ST",
     "validacoes": [
-      "==> Entra na GNCASHPL00664 e executa o comando ``` ftp GNCASHPL00667 ```\n\n",
+      "==> Entra na *****HPL00664 e executa o comando ``` ftp *****HPL00667 ```\n\n",
       "Tem que retornar:\n\n",
-      "Connected to GNCASHPL00667 (180.104.158.18).\n",
+      "Connected to *****HPL00667 (180.104.158.18).\n",
       "220 (vsFTPd 3.0.3)\n"
     ]
   },
   {
-    "nome": "GNCASNPL00900 - GetTransfer - contingência gn207/208cb",
+    "nome": "*****NPL00900 - GetTransfer - contingência gn207/208cb",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL00664 - GetTransfer",
+    "nome": "*****SPL00664 - GetTransfer",
     "responsavel": "ST",
     "validacoes": [
       "==> Tem que começar 02hs pontualmente\n",
@@ -444,27 +444,27 @@
     ]
   },
   {
-    "nome": "GNCASNTL07054 - Banco de dados Oracle TRS QRCODE GOOGLE",
+    "nome": "*****NTL07054 - Banco de dados Oracle TRS QRCODE GOOGLE",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL02061 - NCANAIS",
+    "nome": "*****SPL02061 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL07091 - Descontinuado - Banco de dados MongoDB PRD QRCode Google",
+    "nome": "*****NPL07091 - Descontinuado - Banco de dados MongoDB PRD QRCode Google",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHPL07092 - Descontinuado - Banco de dados MongoDB PRD QRCode Google",
+    "nome": "*****HPL07092 - Descontinuado - Banco de dados MongoDB PRD QRCode Google",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNTL02987 - Up Framework - Banco de Dados - SuperGet Pareavel",
+    "nome": "*****NTL02987 - Up Framework - Banco de Dados - SuperGet Pareavel",
     "responsavel": "ST",
     "validacoes": [
       "TS 37\n",
@@ -472,7 +472,7 @@
     ]
   },
   {
-    "nome": "GNCASSPL03345 - QRCode - Servidor OHS - Microservicos Captura ADQ",
+    "nome": "*****SPL03345 - QRCode - Servidor OHS - Microservicos Captura ADQ",
     "responsavel": "ST",
     "validacoes": [
       "TS 29\n",
@@ -480,13 +480,13 @@
     ]
   },
   {
-    "nome": "GNCASNTL02983 - SuperGet Pareavel",
+    "nome": "*****NTL02983 - SuperGet Pareavel",
     "responsavel": "ST",
     "validacoes": [
       "==> UP da ACI - SuperGet Pareavel\n",
       "SWITCH\n",
-      "GNCASNTL02983 - PRIMARIO RUN\n",
-      "GNCASSTL02984 - DOWN - Fica stopped mesmo\n\n",
+      "*****NTL02983 - PRIMARIO RUN\n",
+      "*****STL02984 - DOWN - Fica stopped mesmo\n\n",
       "cd /data/opt/aci/upf/Switch/bin\n",
       "./switchctl status\n",
       "./switchctl stop\n\n",
@@ -495,12 +495,12 @@
     ]
   },
   {
-    "nome": "GNCASSTL02981 - ICE-XS HAR da ACI - SuperGet Pareavel",
+    "nome": "*****STL02981 - ICE-XS HAR da ACI - SuperGet Pareavel",
     "responsavel": "ST",
     "validacoes": [
       "ICE DE SAIDA\n",
-      "GNCASNTL02980 - Valida se está RUNNING\n",
-      "GNCASSTL02981 - Baixa \n\n",
+      "*****NTL02980 - Valida se está RUNNING\n",
+      "*****STL02981 - Baixa \n\n",
       "cd /data/opt/aci/upf/ICEXSHARouter/bin\n",
       "./icexsctl status\n",
       "./icexsctl stop\n",
@@ -509,17 +509,17 @@
     ]
   },
   {
-    "nome": "GNCASNPL01825 - Apache Legado GetNet",
+    "nome": "*****NPL01825 - Apache Legado GetNet",
     "responsavel": "ST",
     "validacoes": ["https://scows.getnet.com.br:4443/ReversaoCancelamento/"]
   },
   {
-    "nome": "GNCASSPL01824 - Apache Legado GetNet ==> Sendo descontinuado",
+    "nome": "*****SPL01824 - Apache Legado GetNet ==> Sendo descontinuado",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHTL03493 - Up Framework",
+    "nome": "*****HTL03493 - Up Framework",
     "responsavel": "ST",
     "validacoes": [
       "==> Servidor ICE de Entrada #003: ICE-XS HAR da ACI - Ambiente Segregado\n\n",
@@ -530,32 +530,32 @@
     ]
   },
   {
-    "nome": "GNCASSTL02988 - Up Framework - Banco de Dados - SuperGet Pareavel",
+    "nome": "*****STL02988 - Up Framework - Banco de Dados - SuperGet Pareavel",
     "responsavel": "ST",
     "validacoes": ["==> TS 37\n", "==> Conectar no banco UP Pareada"]
   },
   {
-    "nome": "GNCASNPL07108 - Banco de dados Oracle PRD QRCODE GOOGLE",
+    "nome": "*****NPL07108 - Banco de dados Oracle PRD QRCODE GOOGLE",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL04836 - Antecipação de Recebíveis",
+    "nome": "*****SPL04836 - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL07031 - GetTransfer",
+    "nome": "*****NPL07031 - GetTransfer",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL04837 - Antecipação de Recebíveis",
+    "nome": "*****NPL04837 - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL05634 - Captura ADQ WS",
+    "nome": "*****NPL05634 - Captura ADQ WS",
     "responsavel": "ST",
     "validacoes": [
       "==> Logar em\n",
@@ -563,7 +563,7 @@
     ]
   },
   {
-    "nome": "GNCASSPL02937 - Parcerias",
+    "nome": "*****SPL02937 - Parcerias",
     "responsavel": "ST",
     "validacoes": [
       "==> Chamar localmente a URL\n",
@@ -573,7 +573,7 @@
     ]
   },
   {
-    "nome": "GNCASNPA03350 - QR Code",
+    "nome": "*****NPA03350 - QR Code",
     "responsavel": "ST",
     "validacoes": [
       "==> Restartar PODs porque perdem conexão\n",
@@ -581,7 +581,7 @@
     ]
   },
   {
-    "nome": "GNCASSPA03349 - QR Code",
+    "nome": "*****SPA03349 - QR Code",
     "responsavel": "ST",
     "validacoes": [
       "==> Restartar PODs porque perdem conexão\n",
@@ -589,22 +589,22 @@
     ]
   },
   {
-    "nome": "GNCASNPL02053 - NCANAIS",
+    "nome": "*****NPL02053 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL02052 - NCANAIS",
+    "nome": "*****SPL02052 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL02054 - NCANAIS",
+    "nome": "*****SPL02054 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTL05205 - Captura ADQ WS",
+    "nome": "*****STL05205 - Captura ADQ WS",
     "responsavel": "ST",
     "validacoes": [
       "==> Chamar localmente a URL\n",
@@ -613,17 +613,17 @@
     ]
   },
   {
-    "nome": "GNCASSPL07597 - Intelie Live - MonNegócio",
+    "nome": "*****SPL07597 - Intelie Live - MonNegócio",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHPL07599 - Intelie Live - MonNegócio",
+    "nome": "*****HPL07599 - Intelie Live - MonNegócio",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTA00959 - Cancelamento Online",
+    "nome": "*****STA00959 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Antecipação - Testar na 29 ou 36\n",
@@ -633,12 +633,12 @@
     ]
   },
   {
-    "nome": "GNCASSTL08221 - Antecipação de Recebíveis",
+    "nome": "*****STL08221 - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL03346 - QR Code",
+    "nome": "*****NPL03346 - QR Code",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 29\n",
@@ -646,7 +646,7 @@
     ]
   },
   {
-    "nome": "GNCASSPL03347 - QR Code",
+    "nome": "*****SPL03347 - QR Code",
     "responsavel": "ST",
     "validacoes": [
       "==> QR Code - Servidor Weblogic - Microservicos Captura\n",
@@ -654,7 +654,7 @@
     ]
   },
   {
-    "nome": "GNCASNPL05784 - Cancelamento Online",
+    "nome": "*****NPL05784 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Abrir WSDL na TS 29\n",
@@ -662,7 +662,7 @@
     ]
   },
   {
-    "nome": "GNCASNPL02936 - Parcerias",
+    "nome": "*****NPL02936 - Parcerias",
     "responsavel": "ST",
     "validacoes": [
       "==> Chamar localmente a URL https://brpremmiaws.getnet.com.br/brpremmia-rest/resources/RestService/get\n",
@@ -671,13 +671,13 @@
     ]
   },
   {
-    "nome": "GNCASSTL02984 - Captura ADQ WS",
+    "nome": "*****STL02984 - Captura ADQ WS",
     "responsavel": "ST",
     "validacoes": [
       "==> UP da ACI - SuperGet Pareavel\n",
       "SWITCH\n",
-      "GNCASNTL02983 - PRIMARIO RUN\n",
-      "GNCASSTL02984 - DOWN - Fica stopped mesmo\n\n",
+      "*****NTL02983 - PRIMARIO RUN\n",
+      "*****STL02984 - DOWN - Fica stopped mesmo\n\n",
       "cd /data/opt/aci/upf/Switch/bin\n",
       "./switchctl status\n",
       "./switchctl stop\n\n",
@@ -686,7 +686,7 @@
     ]
   },
   {
-    "nome": "GNCASNPL02938 - Parcerias",
+    "nome": "*****NPL02938 - Parcerias",
     "responsavel": "ST",
     "validacoes": [
       "==> WebLogic BrPremia Producao\n",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "nome": "GNCASHPL00665 - GetTransfer",
+    "nome": "*****HPL00665 - GetTransfer",
     "responsavel": "ST",
     "validacoes": [
       "==> Troca de arquivos com BSPLink IATA\n",
@@ -703,12 +703,12 @@
     ]
   },
   {
-    "nome": "GNCASNTL02979 - Up Framework",
+    "nome": "*****NTL02979 - Up Framework",
     "responsavel": "ST",
     "validacoes": [
       "==> ICE de Entrada\n",
       "https://confluence.getnet.com.br:8444/pages/viewpage.action?pageId=20337280\n\n",
-      "ssh svc_aci@GNCASNTL02979\n",
+      "ssh svc_aci@*****NTL02979\n",
       "UNUo95hI-5Mf-65\n\n",
       "cd /data/opt/aci/upf/ICEXSHARouter/bin\n",
       "./icexsctl status\n",
@@ -717,7 +717,7 @@
     ]
   },
   {
-    "nome": "GNCASHTL03494 - Up Framework",
+    "nome": "*****HTL03494 - Up Framework",
     "responsavel": "ST",
     "validacoes": [
       "==> Servidor ICE de SAIDA #004: ICE-XS HAR da ACI - Ambiente Segregado\n\n",
@@ -733,12 +733,12 @@
     ]
   },
   {
-    "nome": "GNCASNTL02980 - Up Framework",
+    "nome": "*****NTL02980 - Up Framework",
     "responsavel": "ST",
     "validacoes": [
       "==> ICE de Saída\n",
-      "GNCASSTL02981 - Valida se está RUNNING\n",
-      "GNCASNTL02980 - Baixa \n",
+      "*****STL02981 - Valida se está RUNNING\n",
+      "*****NTL02980 - Baixa \n",
       "UNUo95hI-5Mf-65\n\n",
       "cd /data/opt/aci/upf/ICEXSHARouter/bin\n",
       "./icexsctl status\n",
@@ -747,30 +747,30 @@
     ]
   },
   {
-    "nome": "GNCASSPL04143 - E-Commerce",
+    "nome": "*****SPL04143 - E-Commerce",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL07107 - QR Code",
+    "nome": "*****SPL07107 - QR Code",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL02060 - NCANAIS",
+    "nome": "*****NPL02060 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL02051 - NCANAIS",
+    "nome": "*****NPL02051 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNTL06173 - RabbitMQ do Gecko/PagoNxt",
+    "nome": "*****NTL06173 - RabbitMQ do Gecko/PagoNxt",
     "responsavel": "ST",
     "validacoes": [
-      "==> TS GNCASNTW00030\n",
+      "==> TS *****NTW00030\n",
       "http://vip-trans-gecko-mq-rabbit.getnet.local:15672/#/queues\n",
       "username: svc_rabbit_gecko_tns\n",
       "password: %!-+Vy6Pn#GilVg\n\n",
@@ -781,62 +781,62 @@
     ]
   },
   {
-    "nome": "GNCASSTL08669 - Cancelamento Online",
+    "nome": "*****STL08669 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "gncassta00846 - Banco de Dados E-Commerce",
+    "nome": "*****sta00846 - Banco de Dados E-Commerce",
     "responsavel": "TIME DO HARRISSON",
     "validacoes": ["TIME DO HARRISSON"]
   },
   {
-    "nome": "GNCASSTL08804 - Reprocessamento - Reversão de Cancelamento",
+    "nome": "*****STL08804 - Reprocessamento - Reversão de Cancelamento",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASHTW08818 - BASE24",
+    "nome": "*****HTW08818 - BASE24",
     "responsavel": "BASE24",
     "validacoes": ["TIME DO VITORIO"]
   },
   {
-    "nome": "GNCASHTW08824 - BASE24",
+    "nome": "*****HTW08824 - BASE24",
     "responsavel": "BASE24",
     "validacoes": ["TIME DO VITORIO"]
   },
   {
-    "nome": "GNCASSTL08128 - ECommerce RabbitMQ",
+    "nome": "*****STL08128 - ECommerce RabbitMQ",
     "responsavel": "TIME DO HARRISSON",
     "validacoes": ["TIME DO HARRISSON"]
   },
   {
-    "nome": "GNCASNPW08730 - BRPREMMIA, CANCEL ONLINE, FECHAMENTOS POS",
+    "nome": "*****NPW08730 - BRPREMMIA, CANCEL ONLINE, FECHAMENTOS POS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNTL08666 - Cancelamento Online",
+    "nome": "*****NTL08666 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTL06172 - Gecko",
+    "nome": "*****STL06172 - Gecko",
     "responsavel": "TIME DO HARRISSON",
     "validacoes": "TIME DO HARRISSON"
   },
   {
-    "nome": "GNCASSPL08609 - NCANAIS",
+    "nome": "*****SPL08609 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNTL08222 - Antecipação de Recebíveis",
+    "nome": "*****NTL08222 - Antecipação de Recebíveis",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL01352 - UNIPOS",
+    "nome": "*****NPL01352 - UNIPOS",
     "responsavel": "ST",
     "validacoes": [
       "==> Monadq Fechamento POS \n",
@@ -850,7 +850,7 @@
     ]
   },
   {
-    "nome": "GNCASNPL01282 - NCANAIS",
+    "nome": "*****NPL01282 - NCANAIS",
     "responsavel": "ST",
     "validacoes": [
       "==> Contingência. Pode fazer direto\n",
@@ -859,28 +859,28 @@
     ]
   },
   {
-    "nome": "GNCASNPL08608 - NCANAIS",
+    "nome": "*****NPL08608 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL01353",
+    "nome": "*****SPL01353",
     "responsavel": "ST",
     "validacoes": [
       "==> MONADQ FECHAMENTOS (FILHOS)\n\n",
-      "GNCASSPL01353\n\n",
+      "*****SPL01353\n\n",
       "não devemos ter impactos \n",
       "a maquina principal de replicação a 1352\n",
       "mas pode validar pelo ts 37 - basetran\n"
     ]
   },
   {
-    "nome": "GNCASSTL08800 - Weblogic Portal Reprocessamento",
+    "nome": "*****STL08800 - Weblogic Portal Reprocessamento",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPL08734 - PSA",
+    "nome": "*****NPL08734 - PSA",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 36\n",
@@ -888,22 +888,22 @@
     ]
   },
   {
-    "nome": "GNCASNTL08801 - Cancelamento",
+    "nome": "*****NTL08801 - Cancelamento",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPA00659 - NCANAIS",
+    "nome": "*****NPA00659 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPA02362 - Captura ADQ WS",
+    "nome": "*****SPA02362 - Captura ADQ WS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL05783 - Cancelamento Online",
+    "nome": "*****SPL05783 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Abrir WSDL na TS 29\n",
@@ -911,7 +911,7 @@
     ]
   },
   {
-    "nome": "GNCASSPA01822 - PSA",
+    "nome": "*****SPA01822 - PSA",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 29\n",
@@ -919,12 +919,12 @@
     ]
   },
   {
-    "nome": "GNCASSPL08607 - NCANAIS",
+    "nome": "*****SPL08607 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASNPA01823 - PSA",
+    "nome": "*****NPA01823 - PSA",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 29\n",
@@ -932,12 +932,12 @@
     ]
   },
   {
-    "nome": "GNCASNPL08610 - NCANAIS",
+    "nome": "*****NPL08610 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTA00887 - Cancelamento Online",
+    "nome": "*****STA00887 - Cancelamento Online",
     "responsavel": "ST",
     "validacoes": [
       "==> Cancelamento Online, Fechamento e BR Premmia\n",
@@ -951,7 +951,7 @@
     ]
   },
   {
-    "nome": "GNCASNTL08805 - Cancelamento",
+    "nome": "*****NTL08805 - Cancelamento",
     "responsavel": "ST",
     "validacoes": [
       "Acessar localmente\n",
@@ -959,12 +959,12 @@
     ]
   },
   {
-    "nome": "GNCASSHW04346 - Host Getnet HTI",
+    "nome": "*****SHW04346 - Host Getnet HTI",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSPL08733 - PSA",
+    "nome": "*****SPL08733 - PSA",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 36\n",
@@ -972,24 +972,24 @@
     ]
   },
   {
-    "nome": "GNCASHPL09082, GNCASHPL09084, GNCASHPL09085, GNCASHPL09086, GNCASHPL09087 - NCANAIS",
+    "nome": "*****HPL09082, *****HPL09084, *****HPL09085, *****HPL09086, *****HPL09087 - NCANAIS",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "gncasspl00311, GNCASNPL00312 - MongoDB Intelie",
+    "nome": "*****spl00311, *****NPL00312 - MongoDB Intelie",
     "responsavel": "ST",
     "validacoes": ["Sem validação\n"]
   },
   {
-    "nome": "GNCASSTL09347 - Oracle STRAN-APP Squad Serviços Transacionais",
+    "nome": "*****STL09347 - Oracle STRAN-APP Squad Serviços Transacionais",
     "responsavel": "ST",
     "validacoes": [
       "==> Entrar no TS 37 e conectar no STRAN-APP. Se sucesso ok."
     ]
   },
   {
-    "nome": "GNCASNTL09348 - STRANN-APP",
+    "nome": "*****NTL09348 - STRANN-APP",
     "responsavel": "ST",
     "validacoes": [
       "==> TS 37\n",
@@ -1003,11 +1003,11 @@
     ]
   },
   {
-    "nome": "gncasspl02234 - RabbitMQ",
+    "nome": "*****spl02234 - RabbitMQ",
     "responsavel": "ST",
     "validacoes": [
-      "TS: GNCASNPW00029\n",
-      "URL: http://gncasspl02234.getnet.local:15672/#/\n",
+      "TS: *****NPW00029\n",
+      "URL: http://*****spl02234.getnet.local:15672/#/\n",
       "usuário e senha: rabbitadmin\n"
     ]
   }
