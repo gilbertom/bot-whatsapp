@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Consulta de Servidores</title>
+    <style>
+      :root {
+        --bg-light: #f4f6f8;
+        --text-light: #333;
+        --bg-dark: #1c1c1c;
+        --text-dark: #eee;
+
+        --azul: #d0e7ff;
+        --verde: #d0ffdc;
+        --vermelho: #ffe5e5;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: var(--bg-light);
+        color: var(--text-light);
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: var(--bg-dark);
+          color: var(--text-dark);
+        }
+
+        input,
+        button {
+          background-color: #2a2a2a;
+          color: var(--text-dark);
+          border: 1px solid #555;
+        }
+
+        .servidor {
+          color: #000;
+        }
+      }
+
+      .container {
+        max-width: 800px;
+        width: 100%;
+        padding: 40px 20px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      input,
+      button {
+        padding: 10px 12px;
+        font-size: 15px;
+        margin: 5px 0;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+      }
+
+      input:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 8px;
+        width: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .servidor {
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-top: 20px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        background-color: white;
+      }
+
+      .azul {
+        background-color: var(--azul) !important;
+      }
+
+      .verde {
+        background-color: var(--verde) !important;
+      }
+
+      .vermelho {
+        background-color: var(--vermelho) !important;
+      }
+
+      ul {
+        margin: 8px 0 0 20px;
+        padding: 0;
+      }
+
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(240, 240, 240, 0.7);
+        color: #333;
+        font-size: 22px;
+        font-weight: bold;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        backdrop-filter: blur(2px);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        #loading {
+          background-color: rgba(30, 30, 30, 0.7);
+          color: #eee;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 20px 10px;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Consulta de Servidores</h2>
+      <input
+        type="text"
+        id="servidoresInput"
+        oninput="limparResultado()"
+        onkeydown="if(event.key === 'Enter') consultarServidores()" />
+      <button onclick="consultarServidores()">Consultar</button>
+      <div id="resultado"></div>
+    </div>
+
+    <div id="loading">Buscando dados...</div>
+
+    <script>
+      function limparResultado() {
+        document.getElementById("resultado").innerHTML = "";
+      }
+
+      async function consultarServidores() {
+        const input = document.getElementById("servidoresInput").value;
+        const nomes = input
+          .split(",")
+          .map((n) => n.trim())
+          .filter((n) => n)
+          .join(",");
+
+        if (!nomes) {
+          alert("Digite ao menos um nome de servidor.");
+          return;
+        }
+
+        const url = `https://bot-whatsapp-xp5x.onrender.com/api/consulta?nome=${encodeURIComponent(
+          nomes
+        )}`;
+        const resultadoDiv = document.getElementById("resultado");
+        resultadoDiv.innerHTML = "";
+        document.getElementById("loading").style.display = "flex";
+
+        try {
+          const res = await fetch(url);
+          if (!res.ok) throw new Error("Erro na requisição");
+          const dados = await res.json();
+
+          const encontrados = dados.filter((srv) => srv.encontrado);
+          const naoEncontrados = dados.filter((srv) => !srv.encontrado);
+          const ordenados = [...encontrados, ...naoEncontrados];
+
+          let colorToggle = 0;
+
+          ordenados.forEach((srv) => {
+            const div = document.createElement("div");
+            div.className = "servidor";
+
+            if (!srv.encontrado && srv.mensagem === "Servidor não encontrado") {
+              div.classList.add("vermelho");
+            } else {
+              div.classList.add(colorToggle === 0 ? "azul" : "verde");
+              colorToggle = 1 - colorToggle;
+            }
+
+            if (srv.encontrado) {
+              div.innerHTML = `
+              <strong>Servidor:</strong> ${srv.nome}<br/>
+              <strong>Responsável:</strong> ${srv.responsavel}<br/>
+              <strong>Validações:</strong>
+              <ul>
+                ${
+                  Array.isArray(srv.validacoes)
+                    ? srv.validacoes.map((v) => `<li>${v}</li>`).join("")
+                    : "<li>Nenhuma validação</li>"
+                }
+              </ul>
+            `;
+            } else {
+              div.innerHTML = `
+              <strong>Servidor:</strong> ${srv.nome}<br/>
+              <strong>Mensagem:</strong> ${srv.mensagem}
+            `;
+            }
+
+            resultadoDiv.appendChild(div);
+          });
+        } catch (err) {
+          resultadoDiv.innerHTML = `<span style="color: red;">Erro: ${err.message}</span>`;
+        } finally {
+          document.getElementById("loading").style.display = "none";
+        }
+      }
+
+      window.onload = () => {
+        document.getElementById("servidoresInput").focus();
+      };
+    </script>
+  </body>
+</html>
