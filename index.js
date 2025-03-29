@@ -4,24 +4,7 @@ const cors = require("cors");
 const fs = require("fs");
 
 const app = express();
-
-const allowedOrigins = [
-  "https://bot-whatsapp-xp5x.onrender.com",
-  "http://localhost:3000",
-];
-
-const corsOptions = {
-  origin: function (origin, callback) {
-    // Permite chamadas sem origem (como Postman ou arquivos locais)
-    if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-};
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const servidores = JSON.parse(fs.readFileSync("servidores.json", "utf8"));
