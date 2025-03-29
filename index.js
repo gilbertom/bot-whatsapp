@@ -47,6 +47,7 @@ app.post("/webhook", (req, res) => {
 
 app.get("/api/consulta", (req, res) => {
   const nomeBusca = req.query.nome;
+  console.log("Chamando com nomes:", nomeBusca);
 
   if (!nomeBusca) {
     return res.status(400).json({ erro: "Parâmetro 'nome' é obrigatório." });
