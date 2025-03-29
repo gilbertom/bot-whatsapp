@@ -5,6 +5,7 @@ const fs = require("fs");
 
 const app = express();
 app.use(cors());
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const servidores = JSON.parse(fs.readFileSync("servidores.json", "utf8"));
